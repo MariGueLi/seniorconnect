@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+        
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(Images/happy-mature-friends-having-fun-while-using-mobile-phone-talking-selfie-home.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 1250px;
+    position: relative;
+    margin-bottom: -50px; 
+}
+.button .login{
+    color: #fff;
+    background-color: #e67d1a;
+    font-size: 20px;
+    border-radius: 7%;
+    text-decoration: none;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 4px;
+    display: flex;
+}
+.button .login:hover{
+    background-color: #d35c00;
+}
+nav{
+    display: flex;
+    padding: 5px 260px;
+    justify-content: space-between;
+    align-items: center;
+    background: #234253;
+}
+nav img{
+    width: 70px;
+}
+nav img:hover{
+    background-color: #e67d1a;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #e67d1a;
+    display:block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.textbox{
+    position: absolute;
+    bottom: 115px;
+    right: 0;
+    text-align: left;
+    border-radius: 30px;
+   /* background-color: rgba(35, 66, 83, 0.65);*/
+   background-color: #234253;
+    padding: 10px;
+}
+.textbox h1{
+    font-size: 30px;
+    margin: 10px 0 40px;
+    color: #fff;
+    font-family: "poppins", serif;
+    font-weight: lighter;
+    padding: 30px;
+}
+/*------- About us ------- */
+.column h3{
+    justify-content: center;
+    text-align: center;
+}
+.aboutUs{
+    padding: 0 70px;
+    margin: 0px 180px;
+    justify-content: center;
+    text-align: justify;
+    margin-bottom: 40px; 
+}
+
+/*------- Options --------*/
+
+.options{
+    background-color: rgba(230, 125, 26, 0.15);
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 40px; 
+}
+h3{
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    color: #fff;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.option-col{
+    flex-basis: 20%;
+    background: #234253;
+    margin-bottom: 5%;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.option-col:hover{
+    box-shadow: 0 0 50px 0px #e67d1a;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+.options-btn{
+    margin: auto;
+    width: 100px;
+    color: #fff;
+    background-color: #e67d1a;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.options-btn:hover {
+    background-color: #d35c00;
+}
+/*-------Manual-------*/
+.manual {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px; 
+}
+.manual-read h3{
+    text-align: center;
+    padding: 40px;
+}
+.manual-read img{
+    width: 20%;
+    padding: 40px;
+}
+/*-------Security------*/
+.security {
+    background-color: rgba(230, 125, 26, 0.15);
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 200px; 
+}
+.security img{
+    width: 20%;
+    padding: 40px;
+}
+/*------ Review -----*/
+.review {
+    display: flex; /* Faz a section comportar-se como um flex container */
+    justify-content: space-between; /* Espaço entre os itens */
+    align-items: flex-start; /* Alinha os itens no topo */
+    gap: 20px; /* Adiciona espaçamento entre os itens */
+    margin-bottom: 40px; 
+}
+
+.review-user {
+    width: 30%; /* Cada "review-user" ocupa 30% da largura da section */
+    text-align: center; /* Alinha o conteúdo centralizado */
+}
+
+.review-user img {
+    width: 100px; /* Define o tamanho da imagem */
+    height: auto;
+    border-radius: 50%; /* Torna a imagem redonda (opcional) */
+    margin-bottom: 15px; /* Espaço abaixo da imagem */
+}
+
+.review-user h1 {
+    font-size: 18px;
+    margin-bottom: 10px; /* Espaço abaixo do nome */
+}
+
+.review-user p {
+    font-size: 14px;
+}
+/*------- Stars ------*/
+.stars img{
+    width: 25%;
+    margin: 0;
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    max-width: 100%; /* Evita que a imagem ultrapasse a largura da tela */
+    height: auto;
+    text-align: center;
+    padding: 0 37%;
+    
+}
+/*----- search bar ----*/
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 80px;
+  }
+  .search-input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .search-button {
+    padding: 10px;
+    background-color: #234253;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .search-button:hover {
+    background-color: #e67d1a;
+  }
+/*------- Products -----*/
+.products {
+    display: flex;
+    gap: 10px;
+    flex-flow: column;
+    flex-wrap: wrap; /*responsive - the elements adapt*/
+    margin-bottom: 80px; 
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    align-items: center; /* Alinha verticalmente ao centro */
+    background-color: #f0f0f0; /* Cor de fundo para o exemplo */
+}
+.item {
+    text-align: center;
+    transition: 0.3s;
+    width: 100%;
+}
+.item:hover{
+    scale: 1.5;
+}
+.preview {
+    height: 50%;
+    width: 25%;
+    margin: 0;
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    max-width: 100%; /* Evita que a imagem ultrapasse a largura da tela */
+    height: auto
+}
+.thumb{
+    height: 5%;
+    width: 5%;
+    margin-right: 5px;
+}
+.normal {
+    order: 0.15px solid #000;
+}
+.selected{
+    border: 3px solid #e67d1a;
+}
+/*-------Footer------*/
+footer{
+    display: flex;
+    padding: 5px 20px;
+    align-items: center;
+    background: #234253;
+    text-decoration: none;
+    display: block;
+}
+footer p a{
+    text-decoration: none;
+    text-size-adjust: 10px;
+}
+footer a {
+    color: white; /* Muda a cor do texto do link para branco */
+    text-decoration: none; /* Remove o sublinhado do link, se desejar */
+}
+
+footer a:hover {
+    color: #e67d1a; /* Altera a cor quando o link é hover (passado o mouse por cima) */
+}
+/*====== MENTORING ======*/
+.mainimage{
+    flex-wrap: wrap;
+    display: flex; /* Usando Flexbox para alinhar os itens lado a lado */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    justify-content: center; /* Alinha os itens no início do container */
+    gap: 20px; /* Espaçamento entre imagem e texto */
+    }
+.mainimage-picture img{
+    max-width: 100%; /* Faz com que a imagem se ajuste ao tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    width: 500px; /* Tamanho fixo ou ajuste conforme necessário */
+}
+.title{
+    display: flex; /* Usando flexbox para o título */
+    flex-direction: column; /* Organiza o título em coluna (um embaixo do outro) */
+    justify-content: center; /* Centraliza o conteúdo verticalmente dentro da div de título */
+    max-width: 600px; /* Limita a largura do texto */
+    color: black;
+    height: 100%; /* Faz a div ocupar toda a altura disponível */
+}
+.title h3, h1 {
+    margin: 0 0 10px 0; /* Remover margens extras para um melhor alinhamento */
+    text-align: justify;
+}
+.title p {
+    line-height: 1.6; /* Para melhorar a legibilidade do texto */
+}
+.aan.de.slag {
+    margin-top: 500px; /* Espaço entre o texto e o botão */
+}
+
+/* Estilo do botão */
+.aan-de-slag-btn {
+    display: inline-block;
+    background-color: #e67d1a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Efeito hover no botão */
+.aan-de-slag-btn:hover {
+    background-color: #d35c00;
+}
